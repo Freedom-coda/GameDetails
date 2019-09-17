@@ -6,6 +6,31 @@ header {
     background: #000;
     height: 100px;
 }
+.header {
+    width: 65%;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+}
+
 .header-logo {
-    
+    width: auto;
+    max-width: 250px;
+    height: auto;
+}
+.header-logo a {
+    text-decoration: none;
+    color: #555;
+    font-size: 26pt;
+}
+.header-logo span {
+    color: #fff;
+}
+
+nav {
+    margin-left: 15px;
+}
+nav>ul>li {
+    display: inline;
+    margin-left: 15px;
 }
